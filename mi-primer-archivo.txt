@@ -8,3 +8,51 @@ comando para dar seguimiento a archivos en git:
 git add $nombreArchivo / git add .
 
 ## El . en el comando descrito anteriormente hace referencia al directorio en el cual se encuentra posicionado la linea de comandos
+
+comando para guardar en el historial los cambios de tu proyecto:
+git commit -m "mensaje descriptivo que indique que se hizo en este versión del desarrollo"
+
+## La bandera -m es forzosa para que le agreguemos una desripción y nos ayude a dar una mejor documentación en nuestro proyecto
+
+comando para ver el historial de cambios del proyecto:
+git log
+
+comando para crear ramas de desarrollo sin afectar el desarrollo principal:
+git branch
+
+comando para cambiar de ramas de desarrollo:
+git checkout $nombreRama
+
+comando para dar seguimiento a los archivos modificados e inmediatamente guardar cambios en el proyecto:
+git commit -am "mensaje descriptivo del desarrollo"
+
+comando para crear ramas y hacer un switch hacia ellas:
+git checkout -b $nombreRama
+
+## La bandera -b significa que se va a crear una rama
+
+comando para unir/combinar dos ramas de desarrollo:
+git commit merge
+
+## Siempre hacer el merge dentro de la rama con más jerarquía
+
+comando para verificar si hay un gestor remoto de la administración del proyecto:
+git remote -v
+
+comando para agregar repositorio remoto del proyecto en local:
+git remote add origin/upstream $urlDelRepositorioRemoto
+
+## origin es el repo original del cual se va a basar el desarrollo
+## upstream es el repo clonado del repo original
+
+comando para enviar cambios del repositorio local al repositorio en la nube:
+git push origin/upstream $nombreRamaQueVasAEnviarALaNube
+
+comando para traerse los cambios del repor de la nube a local:
+git fetch origin/upstream $nombreRamaRepoNube
+
+comando para combinar los cambios del repo de la nube en local:
+git merge origin/$nombreRamaRepoNube 
+
+comando para traerse y combinar el repo de la nube a local:
+git pull origin/upstream $nombreRamaRepoNube
