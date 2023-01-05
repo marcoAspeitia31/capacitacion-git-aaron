@@ -8,3 +8,11 @@ comando para dar seguimiento a archivos en git:
 git add $nombreArchivo / git add .
 
 ## El . en el comando descrito anteriormente hace referencia al directorio en el cual se encuentra posicionado la linea de comandos
+
+comando para guardar en el historial los cambios de tu proyecto:
+git commit -m "mensaje descriptivo que indique que se hizo en este versión del desarrollo"
+
+## La bandera -m es forzosa para que le agreguemos una desripción y nos ayude a dar una mejor documentación en nuestro proyecto
+
+comando para ver el historial de cambios del proyecto:
+git log
