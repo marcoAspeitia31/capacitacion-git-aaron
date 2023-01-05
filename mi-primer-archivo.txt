@@ -9,6 +9,7 @@ git add $nombreArchivo / git add .
 
 ## El . en el comando descrito anteriormente hace referencia al directorio en el cual se encuentra posicionado la linea de comandos
 
+<<<<<<< HEAD
 comando para guardar en el historial los cambios de tu proyecto:
 git commit -m "mensaje descriptivo que indique que se hizo en este versión del desarrollo"
 
@@ -36,3 +37,17 @@ git commit merge
 
 ## Siempre hacer el merge dentro de la rama con más jerarquía
 
+=======
+adsfasdf
+sadfasdf
+asdfsdf
+
+sadfasdf
+asdfasdfasdf
+asdfasdf
+
+
+asdfasdf
+asdfasdf
+asdfsadf
+>>>>>>> aaron
