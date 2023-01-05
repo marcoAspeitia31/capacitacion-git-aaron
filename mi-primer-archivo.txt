@@ -22,3 +22,6 @@ git branch
 
 comando para cambiar de ramas de desarrollo:
 git checkout $nombreRama
+
+comando para dar seguimiento a los archivos modificados e inmediatamente guardar cambios en el proyecto:
+git commit -am "mensaje descriptivo del desarrollo"
