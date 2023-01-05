@@ -16,3 +16,9 @@ git commit -m "mensaje descriptivo que indique que se hizo en este versión del 
 
 comando para ver el historial de cambios del proyecto:
 git log
+
+comando para crear ramas de desarrollo sin afectar el desarrollo principal:
+git branch
+
+comando para cambiar de ramas de desarrollo:
+git checkout $nombreRama
