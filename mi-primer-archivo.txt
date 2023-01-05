@@ -8,3 +8,16 @@ comando para dar seguimiento a archivos en git:
 git add $nombreArchivo / git add .
 
 ## El . en el comando descrito anteriormente hace referencia al directorio en el cual se encuentra posicionado la linea de comandos
+
+adsfasdf
+sadfasdf
+asdfsdf
+
+sadfasdf
+asdfasdfasdf
+asdfasdf
+
+
+asdfasdf
+asdfasdf
+asdfsadf
