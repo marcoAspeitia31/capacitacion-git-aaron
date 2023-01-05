@@ -25,3 +25,14 @@ git checkout $nombreRama
 
 comando para dar seguimiento a los archivos modificados e inmediatamente guardar cambios en el proyecto:
 git commit -am "mensaje descriptivo del desarrollo"
+
+comando para crear ramas y hacer un switch hacia ellas:
+git checkout -b $nombreRama
+
+## La bandera -b significa que se va a crear una rama
+
+comando para unir/combinar dos ramas de desarrollo:
+git commit merge
+
+## Siempre hacer el merge dentro de la rama con más jerarquía
+
